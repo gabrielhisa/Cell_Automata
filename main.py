@@ -220,7 +220,7 @@ glider_gun =\
 
 # 6. Executing
 if __name__ == '__main__':
-    option = int(input('Select the option:\n1 - Random genereation\n2 - Get pattern from text\n3 - Gosper\'s Glider Gun example\n'))
+    option = int(input('Select the option:\n1 - Random generation\n2 - Get pattern from text\n3 - Gosper\'s Glider Gun example\n'))
     if option == 1:
         initial_state = random_state()
     if option == 2:
